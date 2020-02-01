@@ -138,6 +138,13 @@
     }
 }
 
+@media (max-width:320px) {
+    .content__link {
+    padding-left: 0;
+    padding-right: 0;
+    }
+}
+
 @media (max-width: 580px) {
     .content__wrap {
         grid-template-columns: 1fr;
