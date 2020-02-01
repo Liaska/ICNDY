@@ -138,12 +138,7 @@
     }
 }
 
-@media (max-width:320px) {
-    .content__link {
-    padding-left: 0;
-    padding-right: 0;
-    }
-}
+
 
 @media (max-width: 580px) {
     .content__wrap {
@@ -159,5 +154,12 @@
     font-size: 30px;
     line-height: 35px;
     letter-spacing: 8px;
+    }
+}
+
+@media (max-width:320px) {
+    .wrap {
+    padding-left: 0;
+    padding-right: 0;
     }
 }
